@@ -5,14 +5,9 @@ import pygame
 pygame.init()
 
 # Screen dimensions
-SCREEN_WIDTH = 800
+SCREEN_WIDTH = 1080
 SCREEN_HEIGHT = 600
 
-# Colors
-# WHITE = (255, 255, 255)
-# BLUE = (0, 0, 255)
-# GREEN = (0, 255, 0)
-# RED = (255, 0, 0)
 
 # Create the screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
