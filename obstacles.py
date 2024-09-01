@@ -1,6 +1,10 @@
 from settings import *
 import random
 
+'''
+If you want to add more obstacles, you can add here
+'''
+
 class Wave:
     def __init__(self):
         self.image = pygame.image.load("icons/waves.png").convert_alpha()
