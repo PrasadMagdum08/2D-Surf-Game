@@ -9,7 +9,7 @@ class Wave:
     def __init__(self):
         self.image = pygame.image.load("icons/waves.png").convert_alpha()
         self.surf = pygame.Surface((SCREEN_WIDTH, 10))
-        # self.image.fill(BLUE)
+        
         self.rect = self.surf.get_rect()
         self.rect.y = random.randint(-SCREEN_HEIGHT, 0)
 
